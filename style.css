@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.container{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+.login-sect{
+    height: 100%;
+    width: 40%;
+    background-color: #0D0F12;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height:40px;
+    color: white;
+    padding: 50px;
+   
+}
+.login-sect img{
+    height: 65px;
+    padding: -20px;
+     
+}
+.login-sect form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80%;
+    font-size: 15px ;
+    font-weight: 500;
+
+    
+}
+.login-sect form input{
+    height: 40px;
+    background: none;
+    border: 1.5px solid #555c68;
+    color: coal grey;
+    width: 90%;
+    border-radius: 3px;
+   
+}
+.login-sect form label{
+    margin-top: 20px;
+    
+}
+.sgn-in{
+    background-color: #027cb8;
+    height: 40px;
+    color: white;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5%;
+    
+}
+a{
+    color: #1392d1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  
+   
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+ 
+}
+
+
+.border{
+    border-bottom: 2px solid #333840;
+    width: 71%;
+   
+}
+.acc{
+    height: 100px;
+    width: 71%;
+    background-color: #333840;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+   
+}
+.blw{
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    
+}
+.help{
+    transform: scale(8%);
+    
+    position: relative;
+    right: 280px;
+    top: 200px;
+}
+svg .help{
+    fill: #555c68;
+}
+
+
+.image-sect{
+    height: 100%;
+    width: 60%;
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/target/login/navigate/login-background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-sect img{
+    height: 400px;
+}
+.image-sect .p-btn{
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #FF1675;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+@media(max-width:769px){
+
+
+}
